@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.05 ms
+메모리: 33.4 MB, 시간: 0.06 ms
 
 ### 구분
 
@@ -55,3 +55,16 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+
+<hr>
+
+### 느낀점
+먼저 lowerCase로 만들고 첫글자만 다시 대문자로 만들었는데,
+그냥 첫글자 먼저 대문자로 만들고 나머지만 소문자화 했으면 더 좋았을 것 같다.
+
+### 사용한 기술 설명
+* `split`으로 문자열 단어별로 나누기
+* `string.toLowerCase()`로 문자열 소문자화
+* `string.toUpperCase()`로 첫글자 대문자화
+* `string.slice(index)`로 부분 문자열 추출
+* `join`으로 배열을 문자열화
